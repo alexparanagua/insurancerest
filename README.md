@@ -1,5 +1,5 @@
 Substituicao do projeto - seguradorateste
-APIRest Spring Boot with OpenAPI 3
+APIRest Spring Boot with OpenAPI 3 and OAuth2
 
 Application.java - Class main execute test
 
