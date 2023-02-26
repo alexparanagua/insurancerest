@@ -63,7 +63,7 @@ OrcamentoController - Methods REST Controller:
 }
    
 
-* putBudget(PUT) - http://localhost:8000/insurance/budget - Insert or Change
+* putBudget(PUT) - http://localhost:8000/insurance/budget - Insert(retirando o id) or Change
 
    Body example:
        {
