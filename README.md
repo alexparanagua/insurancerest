@@ -1,4 +1,4 @@
-Substituicao do projeto - seguradorateste
+replacing project - seguradorateste
 APIRest Spring Boot with OpenAPI 3 and OAuth2
 
 Application.java - Class main execute test
@@ -6,7 +6,7 @@ Application.java - Class main execute test
 OrcamentoController - Methods REST Controller:
 (Content-Type = application/json)
 
-* getTeste - http://localhost:8000/insurance/teste/{id} - testarOK (id)
+* getTeste - http://localhost:8000/insurance/teste/{id} - test OK (id)
 
 * getBudgetAll(GET) - http://localhost:8000/insurance/budget/all - View All Data and make one data example.
 
@@ -17,7 +17,6 @@ OrcamentoController - Methods REST Controller:
 * budget(POST) - http://localhost:8000/insurance/budget - insert data 
 
    Body example:
-   
    {
     "dtCreate": "2023-02-10T13:30:27.391+00:00",
     "dtUpdate": "2023-02-10T13:30:27.391+00:00",
@@ -63,7 +62,7 @@ OrcamentoController - Methods REST Controller:
 }
    
 
-* putBudget(PUT) - http://localhost:8000/insurance/budget - Insert(retirando o id) or Change
+* putBudget(PUT) - http://localhost:8000/insurance/budget - Insert(remove id) or Change
 
    Body example:
        {
