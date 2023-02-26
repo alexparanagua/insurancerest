@@ -67,53 +67,55 @@ OrcamentoController - Methods REST Controller:
 
    Body example:
        {
-        "dtCreate": "2023-02-10T13:30:27.391+00:00",
-        "dtUpdate": "2023-02-10T13:30:27.391+00:00",
-        "customer": {
-            "id": 2,
-            "name": "Beltrano2 da Silva",
-            "driver": {
-                "id": 6,
-                "document": 44444444,
-                "birthdate": "2023-02-10T13:30:27.391+00:00"
-            }
-        },
-        "cars": {
-            "id": 2,
-            "model": "beltrano modelo",
-            "manufacturer": "outro mit",
-            "year": 2014,
-            "valueFipe": 70000.00,
-            "cardrivers": [
-                {
+    "id": 1,
+    "dtCreate": "2023-02-10T13:30:27.391+0000",
+    "dtUpdate": "2023-02-10T13:30:27.391+0000",
+    "customer": {
+        "id": 2,
+        "name": "Beltrano2 da Silva",
+        "driver": {
+            "id": 6,
+            "document": 44444444,
+            "birthdate": "2023-02-10T13:30:27.391+0000"
+        }
+    },
+    "cars": {
+        "id": 2,
+        "model": "beltrano modelo",
+        "manufacturer": "outro mit",
+        "year": 2014,
+        "valueFipe": 70000.00,
+        "cardrivers": [
+            {
+                "id": 3,
+                "driver": {
                     "id": 3,
-                    "driver": {
-                        "id": 3,
-                        "document": 44444444,
-                        "birthdate": "2023-02-10T13:30:27.391+00:00"
-                    },
-                    "mainDriver": true
+                    "document": 44444444,
+                    "birthdate": "2023-02-10T13:30:27.391+0000"
                 },
-                {
+                "mainDriver": true
+            },
+            {
+                "id": 4,
+                "driver": {
                     "id": 4,
-                    "driver": {
-                        "id": 4,
-                        "document": 111555333333333,
-                        "birthdate": "2023-02-10T13:30:27.391+00:00"
-                    },
-                    "mainDriver": false
-                }
-            ],
-            "claims": [
-                {
-                    "driver": {
-                        "id": 5,
-                        "document": 555555555,
-                        "birthdate": "2023-02-10T13:30:27.391+00:00"
-                    },
-                    "dtEvent": "2023-02-10T13:30:27.391+00:00"
-                }
-            ]
-        },
-        "active": true
-    }
+                    "document": 111555333333333,
+                    "birthdate": "2023-02-10T13:30:27.391+0000"
+                },
+                "mainDriver": false
+            }
+        ],
+        "claims": [
+            {
+                "id": null,
+                "driver": {
+                    "id": 5,
+                    "document": 555555555,
+                    "birthdate": "2023-02-10T13:30:27.391+0000"
+                },
+                "dtEvent": "2023-02-10T13:30:27.391+0000"
+            }
+        ]
+    },
+    "active": true
+}
